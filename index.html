@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css"
+    <title></title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <label for="fname">First Name : </label>
+      <input
+        type="text"
+        name="fname"
+        placeholder="First Name"
+        size="10"
+        required
+      />
+      <br /><br />
+      <label for="lname">Last Name : </label>
+      <input
+        type="text"
+        name="lname"
+        placeholder="Last Name"
+        size="10"
+        required
+      />
+      <br /><br />
+      <label for="Dept">Department : </label>
+      <select name="Dept" id="Dept">
+        <option value="">Choose your Department</option>
+        <option value="EEE">EEE</option>
+        <option value="ME">ME</option>
+        <option value="ECE">ECE</option>
+        <option value="CSE">CSE</option>
+      </select>
+      <br /><br />
+      <label for="gender">Gender : </label><br />
+      <input type="radio" value="Male" name="gender" />Male<br />
+      <input type="radio" value="female" name="gender" />Female<br />
+      <input type="radio" value="other" name="gender" />Other<br />
+      <br />
+      <label>Phone : </label>
+      <input
+        type="text"
+        name="countrycode"
+        placeholder="Country code"
+        value="+91"
+        size="2"
+      />
+      <input
+        type="tel"
+        name="phone"
+        size="25"
+        pattern="[0-9]{4}-[0-9]{6}"
+        placeholder="1234-56790"
+        required
+      />
+      <br /><br />
+      <label for="adress">Current Address : </label>
+      <textarea
+        rows="5"
+        cols="30"
+        placeholder="Enter your current address"
+      ></textarea>
+      <br /><br />
+      <label>Drop your Resume : </label>
+      <input type="file" name="resume" id="resume" />
+      <br /><br />
+      <label>e-mail : </label>
+      <input type="email" placeholder="enter your valid e-mail id" />
+      <br /><br />
+      <label>Password : </label>
+      <input
+        type="password"
+        name="pswd"
+        placeholder="Enter password"
+        required
+      />
+      <br /><br />
+      <label>Re-type password : </label>
+      <input
+        type="password"
+        name="rpswd"
+        placeholder="Re-type password"
+        required
+      />
+      <br /><br />
+      <button type="submit" class="regbtn">Register</button>&nbsp;
+      <button type="reset" class="clr">Clear</button>
+    </form>
+  </body>
+</html>
