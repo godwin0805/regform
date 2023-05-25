@@ -1,0 +1,6 @@
+SEARCH FILES - cntrl+shift+F
+M0VE LINE UP/DOWN - alt+up/down arrow
+COPY LINE UP/DOWN - shift+alt+up/down
+FORMAT COMPLETE PROGRAM - shift+alt+F
+GITLINK 
+SYNTAX EMMET
